@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- materrial-io -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <section id='saved-pic'>
+    </section>
+    <section id='search-form'>
+        <form action="#">
+            <input type="text" placeholder="keyword" name="keyword">
+            <button id='search-button'>
+                <i class="material-icons">
+                    keyboard_arrow_right
+                </i>
+            </button>
+        </form>
+    </section>
+    <section id='search-res'>
+
+
+
+    </section>
+    <section id='user-control-panel'>
+        <form action="#">
+            <label for="per-page-20">
+                <input type="radio" id='per-page-20' value="20" checked name="perPage">20
+            </label>
+            <label for="per-page-40">
+                <input type="radio" id='per-page-40' value="40" name="perPage">40
+            </label>
+            <label for="per-page-60">
+                <input type="radio" id='per-page-60' value="60" name="perPage">60
+            </label>
+        </form>
+        <div id='page-selector'>
+            <div id="prev" disable>
+                <i class="material-icons">
+                    keyboard_arrow_left
+                </i>
+            </div>
+            <span id="counter">1</span>
+            <div id="next">
+                <i class="material-icons">
+                    keyboard_arrow_right
+                </i>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
